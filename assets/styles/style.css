@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+:root {
+  --font-family: 'Montserrat', sans-serif;
+  --primary-color: #0AA1DD; 
+  --secondary-color: #E8F9DF;
+}
+
+body {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: var(--font-family);
+}
+
+
+
+.guess__title {
+  font-size: 4.5em;
+}
+
+.guess__tip {
+  font-size: 2.5em;
+  margin-top: 20px;
+}
+
+.guess__check {
+  font-size: 1.5em;
+  margin-top: 40px;
+}
+
+.guess__number {
+  border: 2px solid var(--secondary-color);
+  display: inline-block;
+  font-size: 4em;
+  padding: 10px;
+  margin: 20px;
+}
+
+.guess__result i {
+  padding: 0 10px;
+}
