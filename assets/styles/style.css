@@ -19,8 +19,6 @@ body {
   font-family: var(--font-family);
 }
 
-
-
 .guess__title {
   font-size: 4.5em;
 }
@@ -31,6 +29,7 @@ body {
 }
 
 .guess__check {
+  display: none;
   font-size: 1.5em;
   margin-top: 40px;
 }
@@ -45,4 +44,8 @@ body {
 
 .guess__result i {
   padding: 0 10px;
+}
+
+.active {
+  display: block;
 }
